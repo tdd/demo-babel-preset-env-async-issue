@@ -13,6 +13,16 @@
     "babel-register": "^6.26.0"
   },
   "babel": {
-    "presets": [["env", { "node": "current" }]]
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": ["> 1%", "last 2 versions", "safari >= 10"],
+            "node": "current"
+          }
+        }
+      ]
+    ]
   }
 }
