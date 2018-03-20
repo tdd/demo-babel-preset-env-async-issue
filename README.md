@@ -1,4 +1,4 @@
-# babel-preset-env failing to use native async/await support in Node
+# PSA: actually works as intended (lowest common denominator across targets)
 
 This is a demo repo that showcases how `babel-preset-env`, despite being configured with a `"node": "current"` target option, will still require `regeneratorRuntime` when encountering an `async`/`await` call.
 
